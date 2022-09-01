@@ -1,0 +1,22 @@
+{
+  "name": "ninjafoodapp",
+  "version": "1.0.0",
+  "description": "Tailwind css Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "html",
+    "responsive"
+  ],
+  "author": "nimishkumarbhardwaj",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
